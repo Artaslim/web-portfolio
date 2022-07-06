@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1500px;
+   
+}
+h1{
+    font-size: 50px;
+}
+   .banner-color{
+             color: aqua;
+   }
+   section{
+    display: flex;
+    justify-content: center;
+   }
+  .half-width{
+    width: 50%;
+    padding-left: 5%;
+  }
+  .half-width img{
+    width: 70%;
+  }
+  .link-button{
+    text-decoration: none;
+    background-image: linear-gradient(aqua,blue );
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#fff;
+  }
+  .top-banner{
+    background-image:url(../images/view.png);
+    background-repeat: no-repeat;
+    
+  }
